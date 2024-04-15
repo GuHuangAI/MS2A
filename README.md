@@ -60,10 +60,20 @@ e.g: ./tools/dist_train.sh configs/yolox/yolox_fs_x_640x640_50e_cityscapes_pretr
 ### :two: eval
 ```shell
 python tools/test.py ${config file} ${checkpoint file} [--out ${RESULT_FILE}] [--eval ${EVAL_METRICS}] [--show]
+e.g:
+python tools/test.py \
+ ./configs/yolox/yolox_fs_x_640x640_50e_cityscapes_pretrain_mom_ft.py \
+ ./work_dirs/yolox_fs_x_640x640_50e_cityscapes_pretrain_mom_ft/best_0_bbox_mAP_epoch_20.pth \
+ --eval bbox
 ```
 ### :three: inference
 ```shell
 python tools/inference.py ${config file} ${checkpoint file} ${save dir}
+e.g:
+python tools/test.py \
+ ./configs/yolox/yolox_fs_x_640x640_50e_cityscapes_pretrain_mom_ft.py \
+ ./work_dirs/yolox_fs_x_640x640_50e_cityscapes_pretrain_mom_ft/best_0_bbox_mAP_epoch_20.pth \
+ ./path/to/save
 ```
 
 ## Thanks
