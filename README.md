@@ -77,4 +77,4 @@ python tools/test.py \
 ```
 
 ## Thanks
-Thanks to the public repos: [mmdetection](https://github.com/open-mmlab/mmdetection) for providing the base code.
+Thanks to the public repos: [mmdetection](https://github.com/open-mmlab/mmdetection) for providing the base code. 
