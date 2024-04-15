@@ -7,8 +7,8 @@ This repository contains the code for reproducing the paper: **[MS2A: Memory Sto
 - We construct a `new challenging benchmark` of industrial scenarios, that comprises complex background and large differences between source and target domains.
 - Experiments show that the proposed MS2A outperforms state-of-the-art methods on both public datasets and the constructed industrial dataset. In particular, MS2A exceeds the `state-of-the-art` method by 10.4\% on the challenging industrial dataset for the 10-annotation setting.
 
-## :bell: Traing and testing from sketrach
-### :one: train
+## :bell: About training and testing
+### :one: train from scratch
 ```shell
 Stage I - Memory Storage
 
