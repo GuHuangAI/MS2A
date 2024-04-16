@@ -64,7 +64,7 @@ Please download our proposed `Industrial Datasets` from [here](https://pan.baidu
 </div>
 
 ## Pretrained model for quick start
-All used pretrained models can be downloaded from [here](https://pan.baidu.com/s/1wdJYaYoUQVV1hcgnCLpf5w?pwd=ccbt).The `yolox_x_8x8_300e_coco_20211126_140254-1ef88d67.pth` is the pretrained model from [mmdetection](https://github.com/open-mmlab/mmdetection). `city_foggycity_epoch_20.pth`, `kitt_city_epoch_18.pth` and `sim10k_city_epoch_15.pth` are pretrained model on public dataset cityscapes2foggycityscapes, kitti2cityscapes and sim10k2cityscapes task respectively.
+All used pretrained models can be downloaded from [here](https://pan.baidu.com/s/1wdJYaYoUQVV1hcgnCLpf5w?pwd=ccbt).The `yolox_x_8x8_300e_coco_20211126_140254-1ef88d67.pth` is the pretrained model from [mmdetection](https://github.com/open-mmlab/mmdetection). `city_foggycity_epoch_20.pth`, `kitti_city_epoch_18.pth` and `sim10k_city_epoch_15.pth` are pretrained model on public dataset cityscapes2foggycityscapes, kitti2cityscapes and sim10k2cityscapes task respectively.
 
 ## Training from scratch
 #### Stage I - Memory Storage
