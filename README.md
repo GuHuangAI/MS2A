@@ -15,9 +15,13 @@ This repository contains the code for reproducing the paper: **[MS2A: Memory Sto
 
 ![K2C](./figures/K2C.png)
 
-**Qualitative comparisons on public datasets S $\rightarrow$ T1 setting.**
+**Qualitative comparisons on proposed industrial datasets Indus_S $\rightarrow$ Indus_T1 setting.**
 
-![S2T1](./figures/S2T1.jpg)
+![S2T1](./figures/S2T1.png)
+
+**Qualitative comparisons on proposed industrial datasets Indus_S $\rightarrow$ Indus_T2 setting.**
+
+![S2T1](./figures/S2T2.jpg)
 
 ## Installation
 Please refer to [Installation](https://mmdetection.readthedocs.io/en/latest/get_started.html) for installation instructions.
