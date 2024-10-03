@@ -24,14 +24,21 @@ This repository contains the code for reproducing the paper: **[MS2A: Memory Sto
 ![S2T1](./figures/S2T2.jpg)
 
 ## Installation
-1、install torch、torchvision、[mmcv](https://mmcv.readthedocs.io/zh-cn/v1.4.0/get_started/installation.html) and cmake
+1、create conda environment and activate it
+```bash
+conda create -n MS2A python=3.9
+conda activate MS2A
+```
+2、install torch、torchvision、[mmcv](https://mmcv.readthedocs.io/zh-cn/v1.4.0/get_started/installation.html) and cmake
 ```bash
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11.0/index.html
 conda install cmake
 ```
-2、git clone `MS2A` project and run the following command
+3、git clone `MS2A` project and run the following command
 ```bash
+git clone https://github.com/GuHuangAI/MS2A.git
+cd MS2A
 pip install -r requirements.txt
 pip install -v -e .
 ```
