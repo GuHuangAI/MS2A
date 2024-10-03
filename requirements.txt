@@ -2,3 +2,5 @@
 -r requirements/optional.txt
 -r requirements/runtime.txt
 -r requirements/tests.txt
+fast_pytorch_kmeans
+einops
