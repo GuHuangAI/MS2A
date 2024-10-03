@@ -146,7 +146,7 @@ python tools/test.py \
 ```shell
 python tools/inference.py ${config file} ${checkpoint file} ${save dir}
 e.g:
-python tools/test.py \
+python tools/inference.py \
  ./configs/yolox/yolox_fs_x_640x640_50e_cityscapes_pretrain_mom_ft.py \
  ./work_dirs/yolox_fs_x_640x640_50e_cityscapes_pretrain_mom_ft/best_0_bbox_mAP_epoch_20.pth \
  ./path/to/save
