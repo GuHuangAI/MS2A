@@ -24,7 +24,18 @@ This repository contains the code for reproducing the paper: **[MS2A: Memory Sto
 ![S2T1](./figures/S2T2.jpg)
 
 ## Installation
-Please refer to [Installation](https://mmdetection.readthedocs.io/en/latest/get_started.html) for installation instructions.
+1、install torch、torchvision、[mmcv](https://mmcv.readthedocs.io/zh-cn/v1.4.0/get_started/installation.html) and cmake
+```bash
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11.0/index.html
+conda install cmake
+```
+2、git clone `MS2A` project and run the following command
+```bash
+pip install -r requirements.txt
+pip install -v -e .
+```
+Reference to [Installation](https://mmdetection.readthedocs.io/en/latest/get_started.html) for more installation instructions.
 
 ## Dataset
 Please download our proposed `Industrial Datasets` from [here](https://pan.baidu.com/s/1QIVEVO5n1RYEGndHPe6aRg?pwd=cfod#list/path=%2F). It consists of two settings, `Indus_S`  $\rightarrow$ `Indus_T1` and `Indus_S`  $\rightarrow$ `Indus_T2`. We use LabemMe for labeling and annotate all the objects as the part class. More information about the size of the training set and test set can be obtained by browsing the table below.
