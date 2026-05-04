@@ -1,5 +1,5 @@
-# :sparkles: MS2A: Memory Storage-to-Adaptation for Cross-domain Few-annotation Object Detection [[Project Page]](https://ms2a-cfod.github.io/)
-This repository contains the code for reproducing the paper: **[MS2A: Memory Storage-to-Adaptation for Cross-domain Few-annotation Object Detection](https://)**
+# :sparkles: Enhancing Cross-domain Few-annotation Object Detection via Memory Storage-to-Adaptation Mechanism [[Project Page]](https://ms2a-cfod.github.io/)
+This work was accepted by **The Visual Computer** (2026-05-04). This repository contains the code for reproducing the paper: **[Enhancing Cross-domain Few-annotation Object Detection via Memory Storage-to-Adaptation Mechanism](https://)**
 ## Overview
 ![Archi](./figures/archi.png)
 - We propose a novel **memory storage-to-adaptation mechanism** to learn the prior knowledge and transfer it to feature alignment adaptively. To the best of our knowledge, this is the first work to extract the prior knowledge of unlabeled target data to address the CFOD task.
